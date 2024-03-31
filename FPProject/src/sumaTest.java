@@ -5,7 +5,7 @@ public class sumaTest {
     @Test
     public void sumaPositivos() {
         System.out.println("Sumando numeros positivos...");
-        suma s = new suma(6, 6);
+        suma s = new suma(2, 2);
         assertTrue(s.sumar() == 12);
     }
 
